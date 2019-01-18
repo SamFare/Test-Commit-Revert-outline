@@ -1,5 +1,5 @@
 {
-  "name": "tcrbowling",
+  "name": "outline-of-tcr-project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,8 +13,8 @@
     "type": "git",
     "url": "git+https://github.com/SamFare/TCRBowling.git"
   },
-  "author": "@SamFare",
-  "license": "MIT",
+  "author": "",
+  "license": "",
   "bugs": {
     "url": "https://github.com/SamFare/TCRBowling/issues"
   },
