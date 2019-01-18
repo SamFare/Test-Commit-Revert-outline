@@ -1,0 +1,22 @@
+{
+  "name": "tcrbowling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "runTests": "echo \"testing\"",
+    "commit": "git add . && git commit -am\"working\" && echo ***** Work commited *****", 
+    "revert": " git reset --hard head && echo ***** Code did not work, Reverted *****", 
+    "test": "npm run runTests &&  npm run commit || npm run revert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamFare/TCRBowling.git"
+  },
+  "author": "@SamFare",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SamFare/TCRBowling/issues"
+  },
+  "homepage": "https://github.com/SamFare/TCRBowling#readme"
+}
