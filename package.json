@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "runTests": "echo \"testing\"",
-    "commit": "git add . && git commit -am\"working\" && echo ***** Work commited *****", 
-    "revert": " git reset --hard head && echo ***** Code did not work, Reverted *****", 
+    "runTests": "jest",
+    "commit": "git add . && git commit -am\"working\" && echo ***** Work commited *****",
+    "revert": " git reset --hard head && echo ***** Code did not work, Reverted *****",
     "test": "npm run runTests &&  npm run commit || npm run revert"
   },
   "repository": {
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/SamFare/TCRBowling/issues"
   },
-  "homepage": "https://github.com/SamFare/TCRBowling#readme"
+  "homepage": "https://github.com/SamFare/TCRBowling#readme",
+  "dependencies": {
+    "jest": "^23.6.0"
+  }
 }
