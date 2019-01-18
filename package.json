@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "runTests": "jest",
-    "commit": "git add . && git commit -am\"working\" && echo ***** Work commited *****",
-    "revert": " git reset --hard head && echo ***** Code did not work, Reverted *****",
+    "runTests": "jest src/*.test.js",
+    "commit": "echo ***** Work commited ***** && git add . && git commit -am\"working\"",
+    "revert": " echo ***** Code did not work, Reverted ***** && git reset --hard head",
     "test": "npm run runTests &&  npm run commit || npm run revert"
   },
   "repository": {
