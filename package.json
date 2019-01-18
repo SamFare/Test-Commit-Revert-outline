@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "runTests": "jest src/*.test.js",
-    "commit": "printf ***** Work commited ***** && git add . && git commit -am\"working\"",
-    "revert": " printf ***** Code did not work, Reverted ***** && git reset --hard head",
+    "commit": "git add . && git commit -am\"working\"",
+    "revert": "git reset --hard head",
     "test": "npm run runTests &&  npm run commit || npm run revert"
   },
   "repository": {
